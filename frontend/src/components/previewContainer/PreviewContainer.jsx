@@ -134,12 +134,12 @@ const PreviewContainer = () => {
 
                 const link = document.createElement('a');
                 link.href = url;
-                link.download = 'vectrofy.svg';  // Updated file name
+                link.download = 'vectrofy.svg';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
 
-                URL.revokeObjectURL(url);  // Clean up URL to release memory
+                URL.revokeObjectURL(url);
             })
             .catch(error => {
                 console.error('Error:', error);
@@ -192,8 +192,6 @@ const PreviewContainer = () => {
                 <LivePreview image={image} />
             }, [image,uploadImage,clickedImage])
 
-
-            {/* Hidden file input */}
             <form>
                 <input
                     type="file"
@@ -206,20 +204,17 @@ const PreviewContainer = () => {
                 />
             </form>
 
-            {/* Upload Button */}
             <button
                 className='uploadButton actionBtn'
                 type='button'
                 onClick={uploadImage}
             >
-                {/* {selectedFile && console.log(selectedFile.name)} */}
 
                 <div className="uploadButtonContainer">
                     <AiOutlineCloudUpload />
                 </div>
             </button>
 
-            {/* Download Button */}
             <button className='downloadButton actionBtn' onClick={downloadImage}>
                 <div className="downloadButtonContainer">
                     <LuDownload />

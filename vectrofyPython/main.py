@@ -7,6 +7,7 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 
+
 @app.route('/convert', methods=['POST'])
 def convert_image():
     file = request.files['file']
@@ -30,5 +31,6 @@ def convert_image():
 
     return jsonify({"svg": svg_data})
 
+
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run(debug=True)
