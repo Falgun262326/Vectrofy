@@ -125,6 +125,9 @@ const PreviewContainer = () => {
 
         fetch("https://vectrofy-python-backend.onrender.com/convert", {
             method: 'POST',
+            headers: {
+                'Content-Type': 'multipart/form-data',
+            },
             body: formData
         })
             .then(response => response.json())

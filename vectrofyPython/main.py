@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://vectrofy-frontend.onrender.com"])
 
 
 @app.route('/convert', methods=['POST'])
