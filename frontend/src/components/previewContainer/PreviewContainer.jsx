@@ -123,7 +123,7 @@ const PreviewContainer = () => {
         formData.append('file', document.querySelector('#fileInput').files[0]);
         formData.append('threshold', threshold);
 
-        fetch("http://127.0.0.1:8080/convert", {
+        fetch("https://vectrofy-python-backend.onrender.com/convert", {
             method: 'POST',
             body: formData
         })
