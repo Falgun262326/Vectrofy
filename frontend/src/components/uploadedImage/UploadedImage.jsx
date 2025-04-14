@@ -10,7 +10,11 @@ const UploadedImage = (props) => {
     const dispatch = useDispatch();
 
     const handleEditClick = () => {
+<<<<<<< HEAD
         fetch(`https://vectrofy-node-backend.onrender.com/api/v2/get-edit-image/${props.imageId}`, {
+=======
+        fetch(`http://localhost:5000/api/v2/get-edit-image/${props.imageId}`, {
+>>>>>>> 646c1f5 (first commit)
             method: 'GET',
         })
             .then((res) => {

@@ -1,14 +1,29 @@
 .livePreview{
+<<<<<<< HEAD
+=======
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 646c1f5 (first commit)
     width: 200px;
     height: 200px;
     background-color: white;
     z-index: 4;
+<<<<<<< HEAD
     bottom: 20px;
+=======
+    margin-top: 50px;
+>>>>>>> 646c1f5 (first commit)
     margin-right: 20px;
     box-shadow: 5px 10px 15px 5px #333;
 }
 
 .livePreviewImageContainer{
+<<<<<<< HEAD
+=======
+    position: absolute;
+>>>>>>> 646c1f5 (first commit)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +31,22 @@
     height: max-content;
     background-color: white;
     z-index: 4;
+<<<<<<< HEAD
     bottom: 20px;
     margin-right: 20px;
+=======
+>>>>>>> 646c1f5 (first commit)
     box-shadow: 5px 10px 15px 5px #333;
 }
 
 .livePreviewImage{
+<<<<<<< HEAD
     max-width: 200px;
     max-height: 200px;
     object-fit: contain;
+=======
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+>>>>>>> 646c1f5 (first commit)
 }

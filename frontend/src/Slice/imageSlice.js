@@ -1,5 +1,9 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
+<<<<<<< HEAD
+=======
+// Thunk to fetch images for a user
+>>>>>>> 646c1f5 (first commit)
 export const fetchImages = createAsyncThunk(
   "images/fetchImages",
   async (userId, { rejectWithValue }) => {
@@ -26,17 +30,28 @@ export const fetchImages = createAsyncThunk(
 const imageSlice = createSlice({
   name: "images",
   initialState: {
+<<<<<<< HEAD
     allImages: [],
+=======
+    allImages: [], // Initial state is an empty array
+>>>>>>> 646c1f5 (first commit)
     clickedImage: null,
     loading: false,
     error: null,
   },
   reducers: {
     setImages: (state, action) => {
+<<<<<<< HEAD
       state.allImages = action.payload;
     },
     addImage: (state, action) => {
       state.allImages.push(action.payload);
+=======
+      state.allImages = action.payload; // Set all images
+    },
+    addImage: (state, action) => {
+      state.allImages.push(action.payload); // Add new image
+>>>>>>> 646c1f5 (first commit)
     },
     deleteImage: (state, action) => {
       state.allImages = state.allImages.filter(

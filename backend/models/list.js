@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const mongoose = require("mongoose");
+=======
+import mongoose from "mongoose";
+>>>>>>> 646c1f5 (first commit)
 
 const listSchema = new mongoose.Schema(
   {
@@ -20,4 +24,9 @@ const listSchema = new mongoose.Schema(
   }
 );
 
+<<<<<<< HEAD
 module.exports = mongoose.model("List", listSchema);
+=======
+export const List = mongoose.model("List", listSchema);
+// export default List;
+>>>>>>> 646c1f5 (first commit)

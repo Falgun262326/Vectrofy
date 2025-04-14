@@ -7,7 +7,11 @@
    viewBox="0 0 1322.9166 264.58333"
    version="1.1"
    id="svg5"
+<<<<<<< HEAD
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+=======
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+>>>>>>> 646c1f5 (first commit)
    sodipodi:docname="elements.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,8 +30,13 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.50000001"
+<<<<<<< HEAD
      inkscape:cx="3540.9999"
      inkscape:cy="-80.999998"
+=======
+     inkscape:cx="2826.9999"
+     inkscape:cy="241.99999"
+>>>>>>> 646c1f5 (first commit)
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
@@ -267,6 +276,7 @@
          sodipodi:nodetypes="ccccccccccc"
          inkscape:path-effect="#path-effect2379"
          inkscape:original-d="m 891.31004,-107.07787 0.51895,-0.17646 2.38836,3.74286 2.38387,-3.74286 0.46723,0.11145 0.003,1.07735 h -0.45406 l -2.40008,3.74286 -2.38836,-3.74286 H 891.31 Z"
+<<<<<<< HEAD
          transform="matrix(23.073485,0,0,10.07207,-19528.981,1210.4868)" /></g><g
        id="g1"
        inkscape:export-filename="..\frontend\public\favicon.png"
@@ -287,3 +297,6 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Bluerabbit;-inkscape-font-specification:'Bluerabbit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:5.069"
            x="1008.016"
            y="-63.038567">Vectrofy</tspan></text></g></g></svg>
+=======
+         transform="matrix(23.073485,0,0,10.07207,-19528.981,1210.4868)" /></g></g></svg>
+>>>>>>> 646c1f5 (first commit)

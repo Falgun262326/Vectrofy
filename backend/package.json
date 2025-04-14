@@ -8,12 +8,27 @@
   },
   "keywords": [],
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "mongoosh": "^0.0.7"
+=======
+  "type":"module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoosh": "^0.0.7",
+    "nodemailer": "^6.9.16"
+>>>>>>> 646c1f5 (first commit)
   },
   "description": "",
   "devDependencies": {

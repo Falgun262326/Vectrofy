@@ -15,6 +15,10 @@
   max-width: 120px;
   max-height: 120px;
   border-radius: 20px;
+<<<<<<< HEAD
+=======
+  /* background-color: red; */
+>>>>>>> 646c1f5 (first commit)
   overflow: hidden;
   position: relative;
   box-shadow: 5px 5px 15px 0px #222;
@@ -22,8 +26,13 @@
 }
 
 .imageCardImage{
+<<<<<<< HEAD
   max-width: 120px;
   max-height: 120px;
+=======
+  width: 120px;
+  height: 90px;
+>>>>>>> 646c1f5 (first commit)
   object-fit: cover;
 }
 
@@ -37,8 +46,13 @@
   justify-content: flex-end;
   align-items: center;
   width: 100%;
+<<<<<<< HEAD
   height: 30px;
   bottom: -30px;
+=======
+  height: 50px;
+  bottom: -50px;
+>>>>>>> 646c1f5 (first commit)
   background-image: linear-gradient(to top, black,black,black,transparent);
   transition: all 300ms;
 }
@@ -50,6 +64,10 @@
 .editImageButton{
   border: none;
   outline: none;
+<<<<<<< HEAD
+=======
+  margin-top: 15px;
+>>>>>>> 646c1f5 (first commit)
   margin-right: 10px;
   font-size: 13px;
   background-color: transparent;
@@ -61,6 +79,10 @@
   border: none;
   outline: none;
   margin-right: 10px;
+<<<<<<< HEAD
+=======
+  margin-top: 15px;
+>>>>>>> 646c1f5 (first commit)
   font-size: 15px;
   cursor: pointer;
   background-color: transparent;

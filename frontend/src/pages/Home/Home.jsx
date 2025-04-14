@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react'
 import './Home.css'
 import { useNavigate } from 'react-router-dom';
+=======
+import React from 'react'
+import './Home.css'
+>>>>>>> 646c1f5 (first commit)
 import path1 from '../../assets/illustrations/path1.png';
 import path2 from '../../assets/illustrations/path2.png';
 import path3 from '../../assets/illustrations/path3.png';
@@ -9,6 +14,7 @@ import Carousel from '../../components/Carousel/Carousel';
 import Navbar from '../../components/Navbar/Navbar';
 import PreviewContainer from '../../components/previewContainer/PreviewContainer';
 
+<<<<<<< HEAD
 
 
 const Home = () => {
@@ -20,6 +26,10 @@ const Home = () => {
             navigate('/signin');  // Redirect to login if no user ID is found
         }
     }, [navigate]);
+=======
+const Home = () => {
+
+>>>>>>> 646c1f5 (first commit)
     return (
         <div className='windowBackground'>
             <Navbar />

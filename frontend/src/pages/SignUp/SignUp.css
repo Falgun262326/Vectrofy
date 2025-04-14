@@ -9,6 +9,11 @@
     background-color: #262626;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 646c1f5 (first commit)
 .signUp{
     position: relative;
     display: flex;
@@ -22,6 +27,22 @@
     overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+.signUpNew{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 550px;
+    /* background-color: black; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+>>>>>>> 646c1f5 (first commit)
 .signUpContainer{
     inset: 2px;
     background-color: #303030;
@@ -36,6 +57,23 @@
     font-family: bodyFont;
 }
 
+<<<<<<< HEAD
+=======
+.signUpContainerNew{
+    inset: 2px;
+    background-color: #303030;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    border-radius: 10px;
+    transition: all 300ms;
+    font-family: bodyFont;
+}
+
+>>>>>>> 646c1f5 (first commit)
 .path4Form1{
     position: absolute;
     transform: rotate(20deg);
@@ -70,8 +108,13 @@
   background:linear-gradient(transparent,#b6be13,#b6be13,#b6be13, #b6be13,transparent, transparent,transparent );
   /* background-color:#0fb7ff; */
   transform:rotate(-45deg);
+<<<<<<< HEAD
   top: -520px;
   left: -450px;
+=======
+  top: -820px;
+  left: -750px;
+>>>>>>> 646c1f5 (first commit)
   z-index: 1;
   transition: all 500ms;
   transform-origin: left;
@@ -80,11 +123,19 @@
 
 @keyframes borderAnimationForm {
     0%{
+<<<<<<< HEAD
         top: -520px;
         left: -450px;  
     }100%{
         top: 550px;
         left: 470px;
+=======
+        top: -820px;
+        left: -750px;  
+    }100%{
+        top: 750px;
+        left: 770px;
+>>>>>>> 646c1f5 (first commit)
     }
 }
 
@@ -94,7 +145,17 @@
     margin: 20px;
 }
 
+<<<<<<< HEAD
 .inputBox input{
+=======
+.inputBoxNew{
+    position: relative;
+    width: 300px;
+    margin: 20px;
+}
+
+.inputBox input, .inputBoxNew input{
+>>>>>>> 646c1f5 (first commit)
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -136,6 +197,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     margin-inline: 20px;
     top: -30px;
     font-size: 0.8em;
@@ -152,6 +214,15 @@
 }
 
 .formLinks a, .formLinkSignUp a{
+=======
+    /* background-color: #04eaff; */
+    margin-inline: 20px;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.formLinks a, .formLinksSignIn a{
+>>>>>>> 646c1f5 (first commit)
     text-decoration: underline #b6be13;
     color: white;
 }
